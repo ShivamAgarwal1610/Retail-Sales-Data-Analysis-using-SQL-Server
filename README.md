@@ -1,7 +1,5 @@
 # 🛍️ Retail Sales Data Analysis using SQL Server
 
-# 🧾 Retail Sales Data Analysis using SQL  
-
 ![SQL](https://img.shields.io/badge/Language-SQL-blue?logo=sql&logoColor=white)
 ![Database](https://img.shields.io/badge/Database-SQL%20Server-red?logo=microsoftsqlserver&logoColor=white)
 ![Status](https://img.shields.io/badge/Status-Completed-brightgreen)
@@ -55,9 +53,5 @@ The analysis is performed using raw transactional data from a CSV file and aims 
 
 ---
 
-## 🚀 How to Run the Project
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/Shivam agarwal/retail-sales-sql-analysis.git
 
 
