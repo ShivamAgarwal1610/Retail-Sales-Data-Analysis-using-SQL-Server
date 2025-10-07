@@ -1,58 +1,63 @@
 # 🛍️ Retail Sales Data Analysis using SQL Server
 
-📘 Project Overview
+# 🧾 Retail Sales Data Analysis using SQL  
 
-This project focuses on analyzing retail sales data using SQL queries. The goal is to extract meaningful insights from a transactional dataset by applying various SQL operations such as filtering, aggregation, grouping, and ranking.
+![SQL](https://img.shields.io/badge/Language-SQL-blue?logo=sql&logoColor=white)
+![Database](https://img.shields.io/badge/Database-SQL%20Server-red?logo=microsoftsqlserver&logoColor=white)
+![Status](https://img.shields.io/badge/Status-Completed-brightgreen)
+![Dataset](https://img.shields.io/badge/Dataset-CSV-yellow)
 
-The project demonstrates how to write optimized SQL queries to answer common business questions like total sales, customer insights, product performance, and time-based analysis.
+## 📘 Project Overview
+This project focuses on **Retail Sales Data Analysis** using **SQL Server**.  
+It demonstrates how SQL queries can be used to uncover insights such as:
+- Total and average sales  
+- Top customers  
+- Best-selling months  
+- Category-wise performance  
+- Time-based sales segmentation (Morning, Afternoon, Evening)  
 
-🗂️ Files in the Repository
+The analysis is performed using raw transactional data from a CSV file and aims to support business decision-making through data-driven insights.  
 
-Sales.csv → Dataset containing sales transactions (e.g., customer, category, sale amount, date, etc.)
+---
 
-SQLQuery1.sql → Contains all SQL queries used to analyze the dataset.
+## 🗂️ Repository Contents
+| File Name | Description |
+|------------|--------------|
+| **`Sales.csv`** | Dataset containing sales transactions. |
+| **`SQLQuery1.sql`** | SQL script with all analysis queries. |
 
-⚙️ Tools & Technologies
+---
 
-Database: SQL Server
+## ⚙️ Tools & Technologies Used
+- **Database:** SQL Server  
+- **Language:** SQL  
+- **Environment:** SQL Server Management Studio (SSMS)  
+- **Dataset Format:** CSV  
 
-Language: SQL
+---
 
-Dataset Format: CSV
+## 🧠 Key SQL Concepts Used
+- `GROUP BY`, `ORDER BY`, `HAVING`  
+- Aggregate functions (`SUM`, `AVG`, `COUNT`)  
+- Date/time functions  
+- `CASE WHEN` conditions for time segmentation  
+- Window functions (`ROW_NUMBER()`, `DENSE_RANK()`)  
+- Joins & Subqueries  
 
-Editor Used: SQL Server Management Studio (SSMS)
+---
 
-🧠 Key Analysis Performed
+## 📊 Business Questions Solved
+✅ What is the **total and average sales** across all transactions?  
+✅ Who are the **top 5 customers** by total purchase value?  
+✅ Which **month performs best** each year in terms of sales?  
+✅ What is the **average customer age** per category?  
+✅ How are sales distributed during **Morning, Afternoon, and Evening** shifts?  
 
-Calculated total and average sales.
+---
 
-Identified top 5 customers by purchase value.
+## 🚀 How to Run the Project
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/<your-username>/retail-sales-sql-analysis.git
 
-Found best-selling month in each year.
-
-Calculated average customer age per category.
-
-Segmented sales based on time of day (Morning, Afternoon, Evening).
-
-Other performance and trend-based insights using aggregation and window functions.
-
-🚀 How to Run
-
-Download the repository.
-
-Import the Sales.csv dataset into your SQL Server database (or any SQL-supported tool).
-
-Open SQLQuery1.sql in SQL Server Management Studio (SSMS).
-
-Execute queries sequentially to view the results.
-
-📊 Sample Insights
-
-Best-selling month and year identified.
-
-Highest-spending customers list generated.
-
-Average age and total sales per category computed.
-
-Time-based segmentation improved understanding of sales trends.
 
