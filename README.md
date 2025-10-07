@@ -58,6 +58,6 @@ The analysis is performed using raw transactional data from a CSV file and aims 
 ## 🚀 How to Run the Project
 1. Clone the repository:
    ```bash
-   git clone https://github.com/<your-username>/retail-sales-sql-analysis.git
+   git clone https://github.com/Shivam agarwal/retail-sales-sql-analysis.git
 
 
